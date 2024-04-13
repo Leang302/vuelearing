@@ -1,9 +1,9 @@
 <script setup>
-import AttributeBinding from './components/AttributeBinding.vue';
+import DynamicBinding from './components/DynamicBinding.vue';
 </script>
 
 <template>
- <AttributeBinding/>
+ <DynamicBinding/>
 </template>
 <!-- css -->
 <style scoped>
