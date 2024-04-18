@@ -1,12 +1,13 @@
 <script setup>
 
-import ConditionalRenderingVue from "./components/ConditionalRendering.vue";
+import IterationComponentVue from "./components/IterationComponent.vue";
+
 
 </script>
 
 <template>
 
- <ConditionalRenderingVue/>
+ <IterationComponentVue/>
 
 </template>
 <!-- css -->
