@@ -13,6 +13,7 @@
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
+    "sugarss": "^4.0.1",
     "vite": "^5.2.8"
   }
 }
