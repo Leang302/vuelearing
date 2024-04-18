@@ -1,12 +1,12 @@
 <script setup>
-import MyRefComponentVue from "./components/MyRefComponent.vue";
 
+import ComputedProterties from './components/ComputedProperties.vue'
 
 </script>
 
 <template>
 
- <MyRefComponentVue/>
+ <ComputedProterties/>
 
 </template>
 <!-- css -->
