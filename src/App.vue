@@ -1,12 +1,12 @@
 <script setup>
-import MyEvent from "./components/MyEvent.vue";
-import MyReactiveComponent from "./components/MyReactiveComponent.vue";
+import MyRefComponentVue from "./components/MyRefComponent.vue";
+
 
 </script>
 
 <template>
 
- <MyReactiveComponent/>
+ <MyRefComponentVue/>
 
 </template>
 <!-- css -->
