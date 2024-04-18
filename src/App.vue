@@ -1,16 +1,12 @@
 <script setup>
-import DynamicBinding from './components/DynamicBinding.vue';
-import GlobalStlyle from './components/GlobalStlyle.vue';
-import LocalStyle from './components/LocalStyle.vue';
-import CombinedStyle from './components/CombinedStyle.vue';
-import ModuleStyle from './components/ModuleStyle.vue';
+import MyEvent from "./components/MyEvent.vue";
+
 </script>
 
 <template>
- <!-- <GlobalStlyle/>
- <LocalStyle/> -->
- <CombinedStyle/>
- <ModuleStyle/>
+
+ <MyEvent/>
+
 </template>
 <!-- css -->
 <style scoped>
