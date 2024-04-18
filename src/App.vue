@@ -1,12 +1,12 @@
 <script setup>
 
-import ComputedProterties from './components/ComputedProperties.vue'
+import ConditionalRenderingVue from "./components/ConditionalRendering.vue";
 
 </script>
 
 <template>
 
- <ComputedProterties/>
+ <ConditionalRenderingVue/>
 
 </template>
 <!-- css -->
