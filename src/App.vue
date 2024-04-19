@@ -1,13 +1,13 @@
 <script setup>
 
-import IterationComponentVue from "./components/IterationComponent.vue";
+import ModelComponentVue from "./components/ModelComponent.vue";
 
 
 </script>
 
 <template>
 
- <IterationComponentVue/>
+ <ModelComponentVue/>
 
 </template>
 <!-- css -->
