@@ -3,7 +3,7 @@ import { ref } from "vue";
 
 const username = ref('')
 const email = ref('')
-const passowrd = ref('')
+const password = ref('')
 </script>
 <template>
     <br>
