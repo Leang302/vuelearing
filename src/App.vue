@@ -1,33 +1,60 @@
 <script setup>
-import SlotComponentVue from "./components/SlotComponent.vue"; 
-import FallbackContent from "./components/FallbackContent.vue";
-import NamedSlot from "./components/NamedSlot.vue";
-import DefaultSlot from "./components/DefaultSlot.vue";
+
+import { provide } from 'vue';
+import SchoolComponent from './components/SchoolComponent.vue';
+import PracticeComponent from './components/PracticeComponent.vue';
+provide('studentName','Leang')
+provide('studentAge',20)
+provide('studentLocations', ['PP',"KD"])
+
+//provide Array
+provide('friends',['jack','Oggy','Leang'])
+//provide objects 
+provide('game',{
+  id:1,
+  title:'Fortnite',
+  genre:['Action','FPS'],
+  developer:{
+    name:'leang',
+    location:['PP','KPS']
+  }
+})
+//provide array of object 
+provide('listOfGames',[
+  {
+    id:1,
+  title:'Fortnite',
+  genre:['Action','FPS'],
+  developer:{
+    name:'leang',
+    location:['PP','KPS']
+  }
+  },
+  {
+    id:2,
+  title:'Pubg',
+  genre:['Action','FPS'],
+  developer:{
+    name:'leang',
+    location:['PP','KPS']
+  }
+  },
+  {
+    id:3,
+  title:'valorant',
+  genre:['Action','FPS'],
+  developer:{
+    name:'leang',
+    location:['PP','KPS']
+  }
+  },
+ 
+])
 </script>
 
 <template>
-<!-- we need to open and close the component in order to use slot -->
-<SlotComponentVue>
-  <h1>Hello World</h1>
-</SlotComponentVue>
-<FallbackContent>
-  <h2>Hello from App</h2>
-</FallbackContent>
-<NamedSlot>
-  <!-- slot 1 -->
-  <template v-slot:one>
-    <h1>This content will go to slot 1</h1>
-  </template>
-  <!-- slot 2 -->
-  <template v-slot:two>
-<h1>This is slot two</h1>
-  </template>
-</NamedSlot>
-<DefaultSlot>
-  <template #default>
-    <h1>This is some random default text</h1>
-  </template>
-</DefaultSlot>
+  <SchoolComponent/>
+  <PracticeComponent/>
 </template>
 <!-- css -->
 <style scoped>
