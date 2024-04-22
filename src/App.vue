@@ -1,12 +1,14 @@
 <script setup>
-import { ref } from 'vue';
-import LifeCycleComponent from './components/LifeCycleComponent.vue'
-const show = ref(true)
+import BasicComponentWatcherVue from "./components/BasicComponentWatcher.vue";
+import ReactiveObject from "./components/ReactiveObject.vue";
+import MultipleSources from "./components/MultipleSources.vue";
 </script>
 
 <template>
- <LifeCycleComponent v-if="show"/>
- <button @click="show= !show">Toggle Visible</button>
+ <BasicComponentWatcherVue/>
+ <ReactiveObject/>
+ <MultipleSources/>
+
 </template>
 <!-- css -->
 <style scoped>

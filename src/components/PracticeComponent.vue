@@ -6,7 +6,7 @@ const games =  inject('game')
 const listOfGames =  inject('listOfGames')
 </script>
 <template>
-    <h1>Friends</h1>
+    <h1>Friends</h1>a
     <ul >
         <li v-for="(friend, index) in friends" :key="index">{{friend}}</li>
     </ul>
