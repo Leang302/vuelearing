@@ -1,13 +1,17 @@
 <script setup>
-import BasicComponentWatcherVue from "./components/BasicComponentWatcher.vue";
-import ReactiveObject from "./components/ReactiveObject.vue";
-import MultipleSources from "./components/MultipleSources.vue";
+
+
+import BasicRef from './components/BasicRef.vue';
+import FunctionRef from './components/FunctionRef.vue';
+import RefComponent from './components/RefComponent.vue'
+
 </script>
 
 <template>
- <BasicComponentWatcherVue/>
- <ReactiveObject/>
- <MultipleSources/>
+ <BasicRef/>
+ <FunctionRef/>
+ <RefComponent/>
+
 
 </template>
 <!-- css -->

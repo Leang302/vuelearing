@@ -19,6 +19,7 @@ onUpdated(()=>{
 })
 onBeforeUnmount(()=>{
     console.log('Component is about to be unmounted')
+    
 })
 onUnmounted(()=>{
     console.log('Component has been unmounted')
