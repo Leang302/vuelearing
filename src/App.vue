@@ -1,17 +1,11 @@
 <script setup>
-
-
-import BasicRef from './components/BasicRef.vue';
-import FunctionRef from './components/FunctionRef.vue';
-import RefComponent from './components/RefComponent.vue'
+import ToggleFriends  from './components/ToggleFriends.vue'
 
 </script>
 
 <template>
- <BasicRef/>
- <FunctionRef/>
- <RefComponent/>
-
+ <ToggleFriends/>
+ 
 
 </template>
 <!-- css -->
