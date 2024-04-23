@@ -1,14 +1,10 @@
 <script setup>
-import CounterComponent from './components/CounterComponent.vue'
-import YetAnotherComponent from './components/YetAnotherComponent.vue'
-
-// we use composable so that we can use the logic in every part of our project  
+import MyCustomComponentVue from "./components/MyCustomComponent.vue";
 </script>
 
 <template>
 
- <CounterComponent/>
- <YetAnotherComponent/>
+ <MyCustomComponentVue/>
 
  
 
