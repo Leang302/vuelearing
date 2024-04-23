@@ -1,10 +1,15 @@
 <script setup>
-import ToggleFriends  from './components/ToggleFriends.vue'
+import CounterComponent from './components/CounterComponent.vue'
+import YetAnotherComponent from './components/YetAnotherComponent.vue'
 
+// we use composable so that we can use the logic in every part of our project  
 </script>
 
 <template>
- <ToggleFriends/>
+
+ <CounterComponent/>
+ <YetAnotherComponent/>
+
  
 
 </template>
