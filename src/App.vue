@@ -1,11 +1,11 @@
 <script setup>
-
-import MainComponentVue from "./components/MainComponent.vue";
-
+import GettingDataWithFetchVue from "./components/GettingDataWithFetch.vue";
+import GettingDataWithAxious from './components/GettingDataWithAxious.vue'
 </script>
 
 <template>
- <MainComponentVue/>
+ <!-- <GettingDataWithFetchVue/> -->
+ <GettingDataWithAxious/>
 </template>
 <!-- css -->
 <style scoped>
