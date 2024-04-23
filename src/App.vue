@@ -1,13 +1,11 @@
 <script setup>
-import MyCustomComponentVue from "./components/MyCustomComponent.vue";
+
+import MainComponentVue from "./components/MainComponent.vue";
+
 </script>
 
 <template>
-
- <MyCustomComponentVue/>
-
- 
-
+ <MainComponentVue/>
 </template>
 <!-- css -->
 <style scoped>
